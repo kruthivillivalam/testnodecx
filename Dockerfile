@@ -35,7 +35,7 @@ ENV _JAVA_OPTIONS -Djava.net.preferIPv4Stack=true
 # Πιθανόν να πρέπει να φτιαχτεί διαφοετικό DockerFile για την amazon
 #ENV GOOGLE_APPLICATION_CREDENTIALS=/app/config/gcloud_ps.json 
 
-EXPOSE PORT 8080
+EXPOSE 8080
 
 COPY package.json /app/
 RUN npm install
